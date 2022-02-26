@@ -85,6 +85,7 @@ main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    
 }
 
 /* BENEFITS ASIDE */
@@ -148,3 +149,39 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+    main
+     {
+       flex-direction: column; 
+      width: 100%;
+      margin-left: 0px;
+    }
+    .benefits {
+        margin-right: 0px;
+        width: 100%;
+        
+    }
+    .service-seo, .service-online, .service-social {
+         height: 100%;
+        
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    main
+     {
+       flex-direction: column; 
+      width: 100%;
+      margin-left: 0px;
+    }
+    .benefits {
+        margin-right: 0px;
+        width: 100%;
+        
+    }
+    .service-seo, .service-online, .service-social {
+         height: 100%;
+        
+    }
+  }
+  
