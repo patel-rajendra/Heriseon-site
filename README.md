@@ -2,18 +2,27 @@
 
 To refctor an existing webpage to make it accessible and to improve SEO
 
+![Horiseon](https://user-images.githubusercontent.com/99554262/155854956-d4c53bc8-d3bf-4eb0-814e-641321216720.jpg)
+
 # Acceptance Criteria
 
-```
-GIVEN a webpage that meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the icon and image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN I find that they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
+- Meets accessibility standards
+- Applies semantic HTML elements
+- The elements follow a logical structure independent of styling and positioning
+- Includes accessible alt attributes in images and icons
+- Heading attributes fall in sequential order
+- Includes a concise, descriptive title element
 
+# Additional requirements:
+- Ensure all links are functioning correctly
+- Clean up the CSS to make it efficient
+  - Consolidate CSS selectors and properties
+  - Organize them to follow the semantic structure of the HTML elements
+  - Include comments before each element or section of the page
+
+# References:
+https://github.com/patel-rajendra/Heriseon-site.git
+
+https://patel-rajendra.github.io/Heriseon-site/
+
+[Web accessibility standards](https://www.w3.org/WAI/fundamentals/accessibility-intro/)
